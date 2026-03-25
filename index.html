@@ -3,95 +3,183 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>VIKRAM JALAN</title>
 
-<script src="https://cdn.tailwindcss.com"></script>
+<title>RAJ CRICKET ANALYST</title>
 
-<!-- Meta Pixel Code -->
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg,#000428,#004e92);
+    color: white;
+    text-align: center;
+}
+
+/* HEADER */
+.header {
+    padding: 15px;
+    font-size: 22px;
+    font-weight: bold;
+    background: black;
+    color: #00ffcc;
+}
+
+/* HERO */
+.hero {
+    padding: 30px 15px;
+}
+
+.hero h1 {
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    color: #ddd;
+    margin-bottom: 15px;
+}
+
+/* BUTTON */
+.btn {
+    display: inline-block;
+    padding: 15px 25px;
+    background: #00c3ff;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+    0% {transform: scale(1);}
+    50% {transform: scale(1.1);}
+    100% {transform: scale(1);}
+}
+
+/* COUNTER */
+.counter {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #00ffcc;
+}
+
+/* TIMER */
+.timer {
+    font-size: 20px;
+    margin: 15px 0;
+    color: yellow;
+}
+
+/* CARDS */
+.section {
+    padding: 20px;
+}
+
+.card {
+    background: rgba(255,255,255,0.1);
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+/* FOOTER */
+.footer {
+    padding: 15px;
+    font-size: 12px;
+    color: #aaa;
+}
+</style>
+
+<!-- AUTO REDIRECT -->
 <script>
-!function(f,b,e,v,n,t,s){
-if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}
-(window, document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
-
-fbq('init', '892947739651696');
-fbq('track', 'PageView');
+setTimeout(function(){
+    window.location.href="https://t.me/+fjPvm6JynKk0MDdl";
+},8000);
 </script>
-
-<noscript>
-<img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=892947739651696&ev=PageView&noscript=1"/>
-</noscript>
-<!-- End Meta Pixel Code -->
 
 </head>
 
-<body class="bg-white min-h-screen flex items-center justify-center p-4">
+<body>
 
-<div class="w-full max-w-sm text-center">
+<div class="header">
+RAJ CRICKET ANALYST
+</div>
 
-<img src="https://github.com/BkAdAgency/Telugufantasy/blob/main/teluguimg.jpg?raw=true"
-class="w-24 h-24 rounded-full mx-auto mb-4 shadow-md" alt="Profile">
+<div class="hero">
+<h1>🔥 100% Accurate Match Prediction</h1>
+<p>Join Now & Get Winning Tips Daily</p>
 
-<h1 class="text-2xl font-bold mb-2">VIKRAM JALAN</h1>
+<div class="counter" id="users">
+👥 1243 People Joined Today
+</div>
 
-<p class="text-green-600 text-sm font-semibold mb-3">
-🔥 <span id="memberCount">100,000</span> Active Members
-</p>
+<div class="timer" id="countdown">
+⏳ Offer Ends In: 10
+</div>
 
-<button onclick="trackAndRedirect()" 
-class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 rounded-xl shadow-lg transition active:scale-95 mb-4">
-JOIN TELEGRAM NOW
-</button>
-
-<p class="text-gray-600 text-sm mb-5">
-Daily exclusive fantasy updates. Limited access.
-</p>
-
-<p class="text-[11px] text-gray-400 mt-4">
-Instant access • Free to join
-</p>
-
-<p class="text-[11px] text-gray-500 mt-6">
-CONTACT FOR ADVERTISEMENT - 
-<a href="https://t.me/BkAdAgency4" target="_blank" class="text-blue-600 font-semibold">
-@BkAdAgency4
+<a href="https://t.me/+fjPvm6JynKk0MDdl" class="btn">
+JOIN TELEGRAM 🚀
 </a>
-</p>
 
 </div>
 
+<div class="section">
+
+<div class="card">
+🏏 Daily Match Prediction
+</div>
+
+<div class="card">
+📊 Pitch Report & Analysis
+</div>
+
+<div class="card">
+⚡ Toss & Final Tips
+</div>
+
+<div class="card">
+🔥 High Accuracy Winning Rate
+</div>
+
+</div>
+
+<div class="hero">
+<a href="https://t.me/+fjPvm6JynKk0MDdl" class="btn">
+JOIN NOW 🔥
+</a>
+</div>
+
+<div class="footer">
+This website is for educational purposes only.  
+We are not responsible for any profit or loss.
+</div>
+
+<!-- FAKE COUNTER SCRIPT -->
 <script>
+let count = 1243;
+setInterval(()=>{
+    count += Math.floor(Math.random()*3);
+    document.getElementById("users").innerHTML = "👥 " + count + " People Joined Today";
+},3000);
+</script>
 
-function trackAndRedirect() {
-
-  fbq('track', 'Lead', {
-    content_name: 'Telegram Join Button',
-    value: 1,
-    currency: 'INR'
-  });
-
-  setTimeout(function(){
-    window.location.href = "https://t.me/+B84Y1PQZEtFkZjY1";
-  }, 800);
-}
-
-let count = 100000;
-const counter = document.getElementById("memberCount");
-
-function updateCounter() {
-  const change = Math.floor(Math.random() * 3) + 1;
-  count += change;
-  counter.innerText = count.toLocaleString();
-}
-
-setInterval(updateCounter, 3000);
-
+<!-- TIMER SCRIPT -->
+<script>
+let time = 10;
+let timer = setInterval(()=>{
+    time--;
+    document.getElementById("countdown").innerHTML = "⏳ Offer Ends In: " + time;
+    if(time <= 0){
+        clearInterval(timer);
+    }
+},1000);
 </script>
 
 </body>
